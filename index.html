@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Slider</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<section class="home">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-controls">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-image: url('media/karthik1.png');"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2" style="background-image: url('media/Rahul1.png');"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3" style="background-image: url('media/shoaib1.png');"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <img src="media/left-arrow.svg" alt="Prev">
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <img src="media/right-arrow.svg" alt="Next">
+              </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('media/karthik1.png');">
+                <div class="container">
+                    <h2>I'm Karthik</h2>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        <div class="carousel-item" style="background-image: url('media/Rahul1.png');">
+            <div class="container">
+                <h2>I'm Rahul</h2>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('media/shoaib1.png');">
+            <div class="container">
+                <h2>I'm Shoaib</h2>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
